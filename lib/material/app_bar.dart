@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'banner.dart';
-
 class AppBarDemo extends StatelessWidget {
   const AppBarDemo({Key? key}) : super(key: key);
 
