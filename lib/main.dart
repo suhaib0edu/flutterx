@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'material/app_bar.dart';
+import 'material/bottom_app_bar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
       ),
-      home: const AppBarDemo(),
+      home: DemoBottomAppBar(),
     );
   }
 }
